@@ -11,7 +11,6 @@ export default function App() {
   const [bad, setBad] = useState(0);
 
   const onButtonClick = state => {
-    console.log('відгук');
     switch (state) {
       case 'good':
         setGood(prevState => prevState + 1);
